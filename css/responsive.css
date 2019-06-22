@@ -1,0 +1,131 @@
+/* medium layout: 1280px. */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {}
+
+
+
+/* tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+
+
+{
+    
+    .product {
+        height: 315px;
+    }
+    .com_text {
+        margin-top: -79px;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+    hr {
+        width: 26%;
+        margin-right: 110px;
+    }
+    .combo_full {
+        height: 555px;
+    }
+    .com-ad {
+        height: 555px;  
+    }
+    .imges2{
+        height: 60px;
+    }
+    .icon {
+        margin: 0 auto;
+        float: none;
+        margin-top: 56px;
+        width: 47%;
+    }
+    .search > input {
+        width: 36%;
+        float: right;
+        margin-right: 75px;
+        margin-top: 20px;
+    }
+    .search>img {
+        position: absolute;
+        right: 13%;
+        margin-top: 28px;
+    }.med-top {
+        min-height: 71px;
+    }
+    .last-top {
+        min-height: 70px;
+    }
+}
+
+/*mobile layout: 320px */
+
+@media only screen and (max-width: 767px) 
+
+{    
+    .search>img {
+        top: 46%;  
+    } 
+    .logo {
+        margin-left: 13px;
+        margin-bottom: 5px;
+    }
+    .mid-list {
+        width: 126%;
+        margin-left: -66px;
+    }
+    .med-top {
+        padding-bottom: 20px;
+        line-height: 24px;
+    }.last-top {
+        padding: 10px 0px;
+        line-height: 24px;
+    }
+    .pro-title {
+        margin-bottom: 65px;
+    }
+    .combo_full {
+        overflow: hidden;
+    }
+    .img1{
+        z-index: 10;
+        position: relative;
+    }
+    .think {
+        top: -220px;
+        left: 48%;
+    }
+    hr {
+        width: 30%;
+        margin-right: 81px;
+    }
+    .com_text {
+        margin-top: -78%;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+    .com-ad>h6 {
+        top: 44%;
+        left: 31%;
+    }
+    .imges2{    height: 28px;}
+    .bottom_list {
+        min-height: 46px;
+    }
+    .icon{
+        float: none;
+    }
+    .carousel-inner {
+        display: none;
+    }
+    
+    
+}
+
+/* wide mobile layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+
+{
+
+
+
+}
+
